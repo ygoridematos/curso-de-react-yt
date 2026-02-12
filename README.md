@@ -1,37 +1,48 @@
-# Gerenciador de Tarefas (To-Do List)
+📝 TaskManager - Gerenciador de Tarefas Individual
+O TaskManager é uma aplicação robusta desenvolvida em React para organização de rotinas. O projeto foca na experiência do usuário (UX) e na persistência de dados local, permitindo um controle total sobre as tarefas diárias sem a necessidade de uma conta externa.
 
-Bem-vindo ao projeto **Gerenciador de Tarefas**! Este é uma aplicação desenvolvida em **React** para organizar o dia a dia, permitindo adicionar, remover, concluir e ver detalhes de tarefas.
+🚀 Tecnologias e Conceitos Aplicados
+Este projeto foi construído utilizando as práticas mais modernas do ecossistema React:
 
-O objetivo deste projeto foi colocar em prática conceitos fundamentais do React, como gerenciamento de estado, rotas e persistência de dados.
+React (Vite): Tooling de alto desempenho para o desenvolvimento frontend.
 
-## 🚀 Tecnologias Utilizadas
+React Router DOM: Navegação declarativa para visualização de detalhes das tarefas.
 
-- **React** (Vite)
-- **React Router DOM** (Navegação entre páginas)
-- **Tailwind CSS** (Estilização)
-- **Lucide React** (Ícones)
-- **UUID** (Geração de IDs únicos)
-- **LocalStorage** (Persistência de dados no navegador)
+Tailwind CSS: Estilização utilitária para garantir responsividade total.
 
-## ⚙️ Funcionalidades
+Lucide React: Iconografia semântica e elegante para ações de interface.
 
-- [x] Adicionar novas tarefas.
-- [x] Marcar tarefas como concluídas.
-- [x] Excluir tarefas.
-- [x] Visualizar detalhes de uma tarefa em uma página separada.
-- [x] Persistência de dados (as tarefas não somem ao recarregar a página).
+UUID: Geração de identificadores únicos universais para integridade dos dados.
 
-## 📂 Estrutura do Projeto
+LocalStorage API: Persistência de dados no lado do cliente, garantindo que as informações sobrevivam ao recarregamento da página.
 
-O projeto segue uma estrutura organizada de pastas:
+⚙️ Funcionalidades Principais
+CRUD Completo: Adição, listagem, conclusão e exclusão de tarefas.
 
-- `src/components`: Componentes reutilizáveis (Input, Button, etc.).
-- `src/pages`: Páginas da aplicação (Home, TaskPage).
-- `src/App.jsx`: Componente principal e lógica de estado.
+Navegação Dinâmica: Página dedicada para visualização de detalhes específicos de cada tarefa via rotas.
 
-## 🔧 Como rodar o projeto localmente
+Feedback Visual: Estados de conclusão diferenciados para facilitar a leitura rápida.
 
-1. Clone o repositório:
-   ```bash
-   git clone (https://github.com/ygoridematos/curso-de-react-yt)
-   ```
+Persistência Automática: Sincronização constante com o banco de dados local do navegador.
+
+📂 Organização do Projeto
+O código está estruturado de forma modular para facilitar a manutenção:
+
+src/components: Componentes modulares como Inputs, Buttons e Cards de tarefas.
+
+src/pages: Telas da aplicação (Home e TaskPage).
+
+src/App.jsx: Gerenciamento central de estado e configuração de rotas.
+
+src/main.jsx: Ponto de entrada da aplicação.
+
+🔧 Como Iniciar o Projeto
+Clone o repositório: git clone https://github.com/ygoridematos/curso-de-react-yt.git
+
+Instale as dependências: npm install
+
+Execute em modo de desenvolvimento: npm run dev
+
+Após iniciar, acesse http://localhost:5173 no seu navegador.
+
+Desenvolvido por Ygor I. de Matos.
